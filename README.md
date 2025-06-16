@@ -45,7 +45,7 @@ Simple_Job_Board_API/
    ```
 
 4. 
-   **Create a `.env` file in the root directory and add your database URL:**
+   **Create a `.env` file in the root directory(Simple_Job_Board_API folder) and add your database URL:**
 
    Example:
    ```
