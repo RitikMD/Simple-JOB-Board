@@ -39,18 +39,25 @@ Simple_Job_Board_API/
    ```
    cd Simple_Job_Board_API
    ```
-
 3. **Install dependencies:**
    ```
    pip install -r requirements.txt
    ```
 
-4. **Initialize the database:**
+4. 
+   **Create a `.env` file in the root directory and add your database URL:**
+
+   Example:
+   ```
+   DATABASE_URL=mysql+aiomysql://username:password@host:port/dbname
+   ```
+
+5. **Initialize the database:**
    ```
    python app/init_db.py
    ```
 
-5. **Start the application:**
+6. **Start the application:**
    ```
    uvicorn app.main:app --reload
    ```
