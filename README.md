@@ -1,4 +1,3 @@
-# Simple-JOB-Board
 # Simple Job Board API
 
 A minimal RESTful API for managing job postings.
